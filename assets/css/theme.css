@@ -1639,6 +1639,12 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 40px;
 }
 
+.blog-img {
+	height: 200px;
+    object-fit: cover;
+    padding: 15px;
+	width: 100%;
+}
 
 .blog-item {
   position: relative;
