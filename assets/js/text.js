@@ -13,6 +13,7 @@ var projectE_swe = "Ett systemmodellerings angrepp";
 var projectE_eng = "Project E";
 
 
+
 var people = { 
     asaba_eng: { name: "Eric Asaba", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/eric-asaba", email: "eric.asaba@ki.se", photo: "asaba"}, 
     asaba_swe: { name: "Eric Asaba", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/eric-asaba#about-me", email: "eric.asaba@ki.se", photo: "asaba"}, 
@@ -23,7 +24,11 @@ var people = {
 	emami_swe: { name: "Azita Emami", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/azita-emami#about-me", email: "azita.emami@ki.se", photo: "emami"},
 	pour_swe: { name: "Mandana Fallah Pour", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/mandana-fallahpour", email: "mandana.fallahpour@ki.se", photo: "pour"},
 	engstrom_swe: { name: "Gabriella Engström", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "", email: "", photo: "engstrom"},
-	
+	guidetti_swe: { name: "Susanne Guidetti", position: "</br>Professor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/susanne-guidetti#about-me", email: "susanne.guidetti@ki.se", photo: "guidetti"},
+	raghothama_swe: { name: "Jayanth Raghothama", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/jayanthr?l=sv", email: "jayanthr@kth.se", photo: "raghothama"},
+	darwich_swe: { name: "Adam Darwich", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/darwich?l=sv", email: "darwich@kth.se", photo: "darwich"},
+	meijer_swe: { name: "Sebastiaan Meijer", position: "</br>Professor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/smeijer?l=sv", email: "smeijer@kth.se", photo: "meijer"},
+	kornevs_swe: { name: "Maksims Kornevs", position: "</br>Universitetsadjunkt", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/kornevs?l=sv", email: "kornevs@kth.se", photo: "kornevs"},
 	
 	
 	
@@ -46,3 +51,15 @@ function person(name,leader, level) {
 
 
 
+function person_k(name, level) {
+	var levelstr = "";
+	switch (level) {
+		  case 0: levelstr = "";break;
+		  case 1: levelstr = "../";break;
+		  case 2: levelstr = "../../";break;
+		  case 3: levelstr = "../../../";break;		  
+		}
+		
+	str="<div class=\"col-md-6 col-lg-4 py-3 wow zoomIn\"><div class=\"card-doctor\"><div class=\"header\"><img src=\"" + levelstr + "assets/img/team/" + people[name]['photo'] + ".jpg\" alt=\"\"><div class=\"meta\"><a href=\"" + people[name]['link'] + "\"><span class=\"mai-person\"></span></a><a href=\"mailto:" + people[name]['email'] + "\"><span class=\"mai-mail\"></span></a></div></div><div class=\"body\"><p class=\"text-xl mb-0\">" + people[name]['name'] + "</p><span class=\"text-sm text-grey\">" + people[name]['position'] + "</br>" + people[name]['affiliation'] + "</span></div></div></div>";
+return (str);
+}
