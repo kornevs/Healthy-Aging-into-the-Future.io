@@ -6,29 +6,29 @@ var projectA_eng = "ACTIVE@HOME";
 var projectB_swe = "ASSIST 2.0";
 var projectB_eng = "ASSIST 2.0";
 var projectC_swe = "Intervention med vårdpartner";
-var projectC_eng = "Project C: The care partner intervention";
+var projectC_eng = "The care partner intervention";
 var projectD_swe = "Projektöverskridande samskapande";
 var projectD_eng = "All things co";
 var projectE_swe = "Ett systemmodellerings angrepp";
-var projectE_eng = "Project E";
+var projectE_eng = "A systems modelling approach";
 
 
 
 var people = { 
-    asaba_eng: { name: "Eric Asaba", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/eric-asaba", email: "eric.asaba@ki.se", photo: "asaba"}, 
-    asaba_swe: { name: "Eric Asaba", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/eric-asaba#about-me", email: "eric.asaba@ki.se", photo: "asaba"}, 
-    bostrom_eng: { name: "Anne-Marie Boström", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/anne-marie-bostrom#about-me", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
-	bostrom_swe: { name: "Anne-Marie Boström", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/anne-marie-bostrom", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
-	lilienthal_eng: { name: "Anneliese Lilienthal", position: "</br>Doctoral Student", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/anneliese-lilienthal", email: "anneliese.lilienthal@ki.se", photo: "lilienthal"},
-	lilienthal_swe: { name: "Anneliese Lilienthal", position: "</br>Doktorand", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/anneliese-lilienthal#about-me", email: "anneliese.lilienthal@ki.se", photo: "lilienthal"},
-	emami_swe: { name: "Azita Emami", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/azita-emami#about-me", email: "azita.emami@ki.se", photo: "emami"},
-	pour_swe: { name: "Mandana Fallah Pour", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/mandana-fallahpour", email: "mandana.fallahpour@ki.se", photo: "pour"},
-	engstrom_swe: { name: "Gabriella Engström", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "", email: "", photo: "engstrom"},
-	guidetti_swe: { name: "Susanne Guidetti", position: "</br>Professor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/susanne-guidetti#about-me", email: "susanne.guidetti@ki.se", photo: "guidetti"},
-	raghothama_swe: { name: "Jayanth Raghothama", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/jayanthr?l=sv", email: "jayanthr@kth.se", photo: "raghothama"},
-	darwich_swe: { name: "Adam Darwich", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/darwich?l=sv", email: "darwich@kth.se", photo: "darwich"},
-	meijer_swe: { name: "Sebastiaan Meijer", position: "</br>Professor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/smeijer?l=sv", email: "smeijer@kth.se", photo: "meijer"},
-	kornevs_swe: { name: "Maksims Kornevs", position: "</br>Universitetsadjunkt", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/kornevs?l=sv", email: "kornevs@kth.se", photo: "kornevs"},
+asaba_eng: { name: "Eric Asaba", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/eric-asaba", email: "eric.asaba@ki.se", photo: "asaba"}, 
+asaba_swe: { name: "Eric Asaba", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/eric-asaba#about-me", email: "eric.asaba@ki.se", photo: "asaba"}, 
+bostrom_eng: { name: "Anne-Marie Boström", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/anne-marie-bostrom#about-me", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
+bostrom_swe: { name: "Anne-Marie Boström", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/anne-marie-bostrom", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
+lilienthal_eng: { name: "Anneliese Lilienthal", position: "</br>Doctoral Student", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/anneliese-lilienthal", email: "anneliese.lilienthal@ki.se", photo: "lilienthal"},
+lilienthal_swe: { name: "Anneliese Lilienthal", position: "</br>Doktorand", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/anneliese-lilienthal#about-me", email: "anneliese.lilienthal@ki.se", photo: "lilienthal"},
+emami_swe: { name: "Azita Emami", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/azita-emami#about-me", email: "azita.emami@ki.se", photo: "emami"},
+pour_swe: { name: "Mandana Fallah Pour", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/mandana-fallahpour", email: "mandana.fallahpour@ki.se", photo: "pour"},
+engstrom_swe: { name: "Gabriella Engström", position: "</br>Lektor & Docent", affiliation: "Karolinska Institutet", link: "", email: "", photo: "engstrom"},
+guidetti_swe: { name: "Susanne Guidetti", position: "</br>Professor & Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/susanne-guidetti#about-me", email: "susanne.guidetti@ki.se", photo: "guidetti"},
+raghothama_swe: { name: "Jayanth Raghothama", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/jayanthr?l=sv", email: "jayanthr@kth.se", photo: "raghothama"},
+darwich_swe: { name: "Adam Darwich", position: "</br>Universitetslektor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/darwich?l=sv", email: "darwich@kth.se", photo: "darwich"},
+meijer_swe: { name: "Sebastiaan Meijer", position: "</br>Professor", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/smeijer?l=sv", email: "smeijer@kth.se", photo: "meijer"},
+kornevs_swe: { name: "Maksims Kornevs", position: "</br>Universitetsadjunkt", affiliation: "Kungliga Tekniska högskolan", link: "https://www.kth.se/profile/kornevs?l=sv", email: "kornevs@kth.se", photo: "kornevs"},
 	
 	
 	
