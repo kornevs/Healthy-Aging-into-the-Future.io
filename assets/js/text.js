@@ -14,7 +14,7 @@ var projectE_eng = "A systems modelling approach";
 
 
 
-var people = { 
+ 
 	var people = { 
 		asaba_eng: { name: "Eric Asaba", position: "</br>Professor", affiliation: "University of Gothenburg", link: "https://www.gu.se/en/about/find-staff/ericasaba", email: "eric.asaba@gu.se", photo: "asaba"},
 		bostrom_eng: { name: "Anne-Marie Boström", position: "</br>Associate professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/anne-marie-bostrom#about-me", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
