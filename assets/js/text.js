@@ -32,6 +32,8 @@ var projectE_eng = "A systems modelling approach";
 		assander_eng: { name: "Susanne Assander", position: "</br>Lecturer", affiliation: "Uppsala University", link: "https://www.uu.se/en/contact-and-organisation/staff?query=N22-2740", email: "susanne.assander@uu.se", photo: "assander"},
 		patomella_eng: { name: "Ann-Helen Patomella", position: "</br>Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/ann-helen-patomella#about-me", email: "ann-helen.patomella@ki.se", photo: "patomella"},
 		taloyan_eng: { name: "Marina Taloyan", position: "</br>Associate Professor", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/marina-taloyan#about-me", email: "marina.taloyan@ki.se", photo: "taloyan"},
+        englund_eng: { name: "Camilla Englund", position: "</br>Doctoral Student", affiliation: "Karolinska Institutet", link: "https://ki.se/en/people/camilla-englund", email: "camilla.englund@ki.se", photo: "englund"},
+
 		
 		asaba_swe: { name: "Eric Asaba", position: "</br>Professor", affiliation: "Göteborgs Universitet", link: "https://www.gu.se/om-universitetet/hitta-person/ericasaba", email: "eric.asaba@gu.se", photo: "asaba"}, 
 		bostrom_swe: { name: "Anne-Marie Boström", position: "</br>Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/anne-marie-bostrom", email: "anne-marie.bostrom@ki.se", photo: "bostrom"},
@@ -49,7 +51,8 @@ var projectE_eng = "A systems modelling approach";
 		assander_swe: { name: "Susanne Assander", position: "</br>Universitetsadjunkt", affiliation: "Uppsala Universitet", link: "https://www.uu.se/kontakt-och-organisation/personal?query=N22-2740", email: "susanne.assander@uu.se", photo: "assander"},
 		patomella_swe: { name: "Ann-Helen Patomella", position: "</br>Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/ann-helen-patomella", email: "ann-helen.patomella@ki.se", photo: "patomella"},
 		taloyan_swe: { name: "Marina Taloyan", position: "</br>Docent", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/marina-taloyan", email: "marina.taloyan@ki.se", photo: "taloyan"},	
-	
+        englund_swe: { name: "Camilla Englund", position: "</br>Doktorand", affiliation: "Karolinska Institutet", link: "https://ki.se/personer/camilla-englund", email: "camilla.englund@ki.se", photo: "englund"},
+		
 	empty: { name: "", position: "</br>", affiliation: "", link: "", email: "", photo: ""}
 }
 
